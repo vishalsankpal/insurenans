@@ -1,0 +1,824 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ------color variable start-------*/
+/* ------color variable end-------*/
+button:focus {
+  outline: none;
+}
+
+/*---mixing---*/
+/* ------Header start-------*/
+header nav.navbar-light .navbar-brand img {
+  width: 115px;
+}
+
+header nav.navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #f5821f;
+  font-weight: 600;
+}
+
+header nav.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #f5821f;
+  font-size: 18px;
+}
+
+header nav.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #f5821f;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav.navbar-light .navbar-nav .nav-item .nav-link {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+header nav.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #f5821f;
+}
+
+header nav.navbar-light .navbar-nav .nav-item button {
+  background: #f5821f;
+  color: #fff;
+  border: #f5821f;
+  border: 1px solid #f5821f;
+  border-radius: 3px;
+}
+
+header nav.navbar-light .navbar-nav .nav-item button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+header nav.navbar-light .navbar-nav .nav-item button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+header nav.navbar-light .navbar-nav .nav-item button:hover {
+  color: #f5821f;
+  background: #fff;
+  border: 1px solid #f5821f;
+}
+
+header nav.navbar-light .navbar-nav .nav-item button:hover a {
+  color: #f5821f !important;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav.navbar-light .navbar-nav .nav-item {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+/* ------Header end-------*/
+/* ------main start-------*/
+main section {
+  /*-----Banner section start-----*/
+  /*-----Banner section end-----*/
+  /*-----testimonial section start-----*/
+  /*-----testimonial section end-----*/
+  /*-----How it works section start-----*/
+  /*-----How it works section end-------*/
+  /*-----lower rates at your fingure section start-------*/
+  /*-----lower rates at your fingure section end-------*/
+  /*-----get-more-from-your-advisor section start-------*/
+  /*-----get-more-from-your-advisor section end-------*/
+  /*-----human-halp section start-----*/
+  /*-----human-halp section end-----*/
+  /*-----guide-and-resource section start-----*/
+  /*-----guide-and-resource section end-----*/
+  /*-----we-work-with-companies section Start-----*/
+  /*-----we-work-with-companies section end-----*/
+  /*-----get advice and apply section start---*/
+  /*-----get advice and apply section start---*/
+}
+
+main section.banner-section {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+main section.banner-section h1.banner-heading {
+  font-size: 50px;
+  color: #469a46;
+}
+
+main section.banner-section h1.banner-heading #main {
+  color: #f5821f !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.banner-section h1.banner-heading {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.banner-section h1.banner-heading {
+    font-size: 30px;
+  }
+}
+
+main section.banner-section .banner-discription {
+  font-size: 20px;
+  font-weight: 400;
+  color: #469a46;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.banner-section .banner-discription {
+    font-size: 18px;
+  }
+}
+
+main section.banner-section button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background: #f5821f;
+  color: #fff;
+  border: #f5821f;
+  border: 1px solid #f5821f;
+  border-radius: 3px;
+}
+
+main section.banner-section button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.banner-section button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.banner-section button:hover {
+  color: #f5821f;
+  background: #fff;
+  border: 1px solid #f5821f;
+}
+
+main section.banner-section button:hover a {
+  color: #f5821f !important;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.banner-section button {
+    padding: 6px 12px;
+  }
+}
+
+main section.banner-section .quotes {
+  font-size: 20px;
+  font-weight: 400;
+  color: #469a46;
+}
+
+main section.banner-section .quotes a {
+  color: #f5821f;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.banner-section .quotes {
+    font-size: 18px;
+  }
+}
+
+main section.testimonial {
+  background: #f4f4f4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+main section.testimonial .section-heading {
+  color: #f5821f;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.testimonial .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.testimonial .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.testimonial .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.testimonial .section-heading {
+    font-size: 28px;
+  }
+}
+
+main section.testimonial .section-heading .count {
+  color: #469a46;
+}
+
+main section.testimonial .star-rating .number-rating {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main section.testimonial .star-rating .number-rating a {
+  color: #f5821f;
+}
+
+main section.testimonial .star-rating h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main section.testimonial .star-rating .line {
+  width: 25%;
+  height: 1px;
+  background: #f5821f;
+}
+
+main section.testimonial .star-rating .author-name-container .author-name {
+  font-size: 16px;
+  color: grey;
+}
+
+main section.how-it-works-section {
+  padding: 60px 0;
+}
+
+main section.how-it-works-section .section-heading {
+  color: #f5821f;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.how-it-works-section .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.how-it-works-section .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.how-it-works-section .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.how-it-works-section .section-heading {
+    font-size: 28px;
+  }
+}
+
+main section.how-it-works-section .section-discription {
+  color: #469a46;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.how-it-works-section .section-discription {
+    font-size: 16px;
+  }
+}
+
+main section.how-it-works-section .how-it-works-grid-container {
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 10px rgba(70, 154, 70, 0.368627);
+          box-shadow: 0px 0px 10px rgba(70, 154, 70, 0.368627);
+}
+
+main section.how-it-works-section .how-it-works-grid-container h3 {
+  font-size: 24px;
+  color: #f5821f;
+}
+
+main section.how-it-works-section .how-it-works-grid-container p {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.how-it-works-section .how-it-works-grid-container p {
+    font-size: 16px;
+  }
+}
+
+main section.how-it-works-section .how-it-works-get-started-button button {
+  padding: 10px 15px;
+  font-size: 24px;
+  background: #f5821f;
+  color: #fff;
+  border: #f5821f;
+  border: 1px solid #f5821f;
+  border-radius: 3px;
+}
+
+main section.how-it-works-section .how-it-works-get-started-button button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.how-it-works-section .how-it-works-get-started-button button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.how-it-works-section .how-it-works-get-started-button button:hover {
+  color: #f5821f;
+  background: #fff;
+  border: 1px solid #f5821f;
+}
+
+main section.how-it-works-section .how-it-works-get-started-button button:hover a {
+  color: #f5821f !important;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.how-it-works-section .how-it-works-get-started-button button {
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+}
+
+main section.lower-rates-at-your-finger {
+  background: #f4f4f4;
+  padding: 60px 0;
+}
+
+main section.lower-rates-at-your-finger h2 {
+  font-size: 40px;
+  color: #f5821f;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.lower-rates-at-your-finger h2 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.lower-rates-at-your-finger h2 {
+    font-size: 28px;
+  }
+}
+
+main section.lower-rates-at-your-finger p {
+  color: #469a46;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.lower-rates-at-your-finger p {
+    font-size: 16px;
+  }
+}
+
+main section.get-more-from-your-advisor {
+  padding: 60px 0;
+}
+
+main section.get-more-from-your-advisor .section-heading {
+  color: #f5821f;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.get-more-from-your-advisor .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.get-more-from-your-advisor .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.get-more-from-your-advisor .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.get-more-from-your-advisor .section-heading {
+    font-size: 28px;
+  }
+}
+
+main section.get-more-from-your-advisor p {
+  color: #469a46;
+  font-size: 20px;
+}
+
+main section.get-more-from-your-advisor p a {
+  color: #f5821f;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.get-more-from-your-advisor p {
+    font-size: 16px;
+  }
+}
+
+main section.human-halp {
+  background: #f4f4f4;
+  padding: 60px 0;
+}
+
+main section.human-halp h1 {
+  color: #f5821f;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.human-halp h1 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.human-halp h1 {
+    font-size: 28px;
+  }
+}
+
+main section.human-halp p {
+  color: #469a46;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.human-halp p {
+    font-size: 16px;
+  }
+}
+
+main section.human-halp button {
+  background: #f5821f;
+  color: #fff;
+  border: #f5821f;
+  border: 1px solid #f5821f;
+  border-radius: 3px;
+  padding: 12px 18px;
+}
+
+main section.human-halp button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.human-halp button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.human-halp button:hover {
+  color: #f5821f;
+  background: #fff;
+  border: 1px solid #f5821f;
+}
+
+main section.human-halp button:hover a {
+  color: #f5821f !important;
+}
+
+main section.human-halp button a {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.human-halp button {
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+}
+
+main section.guide-and-resource {
+  padding: 60px 0;
+  background: #f5821f;
+}
+
+main section.guide-and-resource .section-heading {
+  color: #fff;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.guide-and-resource .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.guide-and-resource .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.guide-and-resource .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.guide-and-resource .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.guide-and-resource .guide-resource-list h4 {
+    font-size: 20px;
+  }
+}
+
+main section.guide-and-resource .guide-and-resource-button button {
+  padding: 12px 30px;
+  background: #469a46;
+  color: #fff;
+  border: #469a46;
+  border: 1px solid #469a46;
+  border-radius: 3px;
+}
+
+main section.guide-and-resource .guide-and-resource-button button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.guide-and-resource .guide-and-resource-button button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.guide-and-resource .guide-and-resource-button button:hover {
+  color: #469a46;
+  background: #fff;
+  border: 1px solid #469a46;
+}
+
+main section.guide-and-resource .guide-and-resource-button button:hover a {
+  color: #469a46 !important;
+}
+
+main section.guide-and-resource .guide-and-resource-button button a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.guide-and-resource .guide-and-resource-button button {
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+}
+
+main section.we-work-with-companies {
+  padding: 60px 0;
+}
+
+main section.we-work-with-companies .section-heading {
+  color: #f5821f;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.we-work-with-companies .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.we-work-with-companies .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.we-work-with-companies .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.we-work-with-companies .section-heading {
+    font-size: 28px;
+  }
+}
+
+main section.we-work-with-companies .owl-stage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section.we-work-with-companies .owl-stage .owl-item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main section.we-work-with-companies .owl-nav {
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section.get-advice-and-apply-now {
+  background: #f4f4f4;
+  padding: 60px 0;
+}
+
+main section.get-advice-and-apply-now .section-heading {
+  color: #f5821f;
+  font-size: 42px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main section.get-advice-and-apply-now .section-heading {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main section.get-advice-and-apply-now .section-heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.get-advice-and-apply-now .section-heading {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main section.get-advice-and-apply-now .section-heading {
+    font-size: 28px;
+  }
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child {
+  background: #f5821f;
+  color: #fff;
+  border: #f5821f;
+  border: 1px solid #f5821f;
+  border-radius: 3px;
+  padding: 12px 20px;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child:hover {
+  color: #f5821f;
+  background: #fff;
+  border: 1px solid #f5821f;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child:hover a {
+  color: #f5821f !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:first-child a {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.get-advice-and-apply-now .advice-button-container button:first-child {
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2) {
+  background: #469a46;
+  color: #fff;
+  border: #469a46;
+  border: 1px solid #469a46;
+  border-radius: 3px;
+  padding: 12px 20px;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2) a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2) a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2):hover {
+  color: #469a46;
+  background: #fff;
+  border: 1px solid #469a46;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2):hover a {
+  color: #469a46 !important;
+}
+
+main section.get-advice-and-apply-now .advice-button-container button:nth-child(2) a {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  main section.get-advice-and-apply-now .advice-button-container button:nth-child(2) {
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+}
+
+footer {
+  padding: 60px 0;
+  background: #000;
+}
+
+footer .footer-heading {
+  color: #f5821f;
+}
+
+footer .social li {
+  width: 40px;
+  height: 40px;
+  background: #f5821f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.30s all ease;
+  transition: 0.30s all ease;
+}
+
+footer .social li:hover {
+  background: #fff;
+  -webkit-transition: 0.30s all ease;
+  transition: 0.30s all ease;
+}
+
+footer .social li:hover a {
+  color: #f5821f;
+}
+
+footer .social li a {
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #469a46;
+}
+
+/* ------main end-------*/
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,437 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------color variable start-------*/
+$primary-orange : #f5821f;
+$secondary-green :#469a46;
+$white:#fff;
+/* ------color variable end-------*/
+button:focus{
+    outline: none;
+}
+/*---mixing---*/
+@mixin button ($bg-color,$text-color) {
+    background: $bg-color;
+    color: $text-color;
+    border: $bg-color;
+    border: 1px solid $bg-color;
+    border-radius: 3px;
+    a{
+        text-decoration: none;
+        color: $text-color !important;
+        &:hover{
+            text-decoration: none;
+            color: $text-color !important;
+        }
+    }
+    &:hover{
+        color: $bg-color;
+        background: $white;
+        border: 1px solid $bg-color;
+        a{
+            color: $bg-color !important;
+        }
+    }
+}
+@mixin heading ($color){
+    color: $color;
+    font-size: 42px;
+    @media only screen and (max-width:1200px){
+        font-size: 36px
+    }
+    @media only screen and (max-width:991px){
+        font-size: 28px
+    }
+    @media only screen and (max-width:767px){
+        font-size: 34px
+    }
+    @media only screen and (max-width:500px){
+        font-size: 28px;
+    }
+}
+/* ------Header start-------*/
+header {
+    nav {
+        &.navbar-light {
+            .navbar-brand{
+                img{
+                    width: 115px;
+                }
+            }
+            .navbar-nav {
+                .nav-item {
+                    &.active {
+                        .nav-link {
+                            color: $primary-orange;
+                            font-weight: 600;
+                        }
+                    }
+                    .nav-link {
+                        color: $primary-orange;
+                        font-size: 18px;
+                        &:hover {
+                            color: $primary-orange;
+                        }
+                        @media only screen and (min-width:992px) {
+                            padding-left: 0.7rem;
+                            padding-right: 0.7rem;
+                        }
+                    }
+                    .nav-link {
+                        color: $primary-orange;
+                    }
+                    button{
+                        @include button($primary-orange, $white);
+                    }
+                    @media only screen and (min-width:992px){
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ------Header end-------*/
+
+/* ------main start-------*/
+main{
+    section{
+        /*-----Banner section start-----*/
+        &.banner-section{
+            padding-top: 80px;
+            padding-bottom: 60px;
+            h1.banner-heading{
+                font-size: 50px;
+                color: $secondary-green;
+                #main{
+                    color: $primary-orange !important;
+                }
+                @media only screen and (max-width:1200px){
+                    font-size: 42px;
+                }
+                @media only screen and (max-width:991px){
+                    font-size: 30px;
+                }
+                
+            }
+            .banner-discription{
+                font-size: 20px;
+                font-weight: 400;
+                color: $secondary-green;
+                @media only screen and (max-width:991px){
+                    font-size: 18px;
+                }
+            }
+            button{
+                padding: 10px 15px;
+                font-size: 18px;
+                @include button($primary-orange, $white);
+                @media only screen and (max-width:991px){
+                    padding: 6px 12px;
+                }
+            }
+            .quotes{
+                font-size: 20px;
+                font-weight: 400;
+                color: $secondary-green;
+                a{
+                    color: $primary-orange;
+                }
+                @media only screen and (max-width:991px){
+                    font-size: 18px;
+                }
+            }
+        }
+        /*-----Banner section end-----*/
+        /*-----testimonial section start-----*/
+        &.testimonial{
+            background: #f4f4f4;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            .section-heading{
+                @include heading($primary-orange);
+                .count{
+                    color: $secondary-green;
+                }
+            }
+            .star-rating{
+                .number-rating{
+                    font-size: 18px;
+                    font-weight: 400;
+                    a{
+                        color: $primary-orange;
+                    }
+                }
+                h5{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                .line{
+                    width: 25%;
+                    height: 1px;
+                    background: $primary-orange;
+                }
+                .author-name-container{
+                    .author-name{
+                        font-size: 16px;
+                        color: grey;
+                    }
+                }
+            }
+        }
+        /*-----testimonial section end-----*/
+        
+        /*-----How it works section start-----*/
+        &.how-it-works-section{
+            padding: 60px 0;
+            .section-heading{
+                @include heading($primary-orange);
+            }
+            .section-discription{
+                color: $secondary-green;
+                font-size: 20px;
+                @media only screen and (max-width:500px){
+                    font-size: 16px;
+                }
+            }
+            .how-it-works-grid-container{
+                padding: 15px;
+                box-shadow: 0px 0px 10px rgba(70, 154, 70, 0.3686274509803922);
+                h3{
+                    font-size: 24px;
+                    color: $primary-orange;
+                }
+                p{
+                    font-size: 18px;
+                    @media only screen and (max-width:500px){
+                        font-size: 16px;
+                    }
+                }
+            }
+            .how-it-works-get-started-button{
+                button{
+                    padding: 10px 15px;
+                    font-size: 24px;
+                    @include button($primary-orange, $white);
+                    @media only screen and (max-width:500px){
+                        padding: 6px 12px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        /*-----How it works section end-------*/
+        /*-----lower rates at your fingure section start-------*/
+        &.lower-rates-at-your-finger{
+            background: #f4f4f4;
+            padding: 60px 0;
+            h2{
+                font-size: 40px;
+                color: $primary-orange;
+                @media only screen and (max-width:991px){
+                    font-size: 34px;
+                }
+                @media only screen and (max-width:500px){
+                    font-size: 28px;
+                }
+            }
+            p{
+                color: $secondary-green;
+                font-size: 18px;
+                @media only screen and (max-width:500px){
+                    font-size: 16px;
+                }
+            }
+        }
+        /*-----lower rates at your fingure section end-------*/
+        /*-----get-more-from-your-advisor section start-------*/
+        &.get-more-from-your-advisor{
+            padding: 60px 0;
+            .section-heading{
+                @include heading($primary-orange);
+            }
+            p{
+                color: $secondary-green;
+                font-size: 20px;
+                a{
+                    color: $primary-orange;
+                }
+                @media only screen and (max-width:500px){
+                    font-size: 16px;
+                }
+            }
+        }
+        /*-----get-more-from-your-advisor section end-------*/
+        /*-----human-halp section start-----*/
+        &.human-halp{
+            background: #f4f4f4;
+            padding: 60px 0;
+            h1{
+                color: $primary-orange;
+                font-size: 40px;
+                @media only screen and (max-width:991px){
+                    font-size: 34px;
+                }
+                @media only screen and (max-width:500px){
+                    font-size: 28px;
+                }
+            }
+            p{
+                color: $secondary-green;
+                // &.call-info{
+                //     color: $primary-orange;
+                // }
+                @media only screen and (max-width:500px){
+                    font-size: 16px;
+                }
+            }
+            button{
+                @include button($primary-orange, $white);
+                padding: 12px 18px;
+                a{
+                    font-size: 20px;
+                }
+                @media only screen and (max-width:500px){
+                    padding: 6px 12px;
+                    font-size: 20px;
+                }
+            }
+            
+        }
+        /*-----human-halp section end-----*/
+        /*-----guide-and-resource section start-----*/
+        &.guide-and-resource{
+            padding: 60px 0;
+            background: $primary-orange;
+            .section-heading{
+                @include heading($white);
+            }
+            .guide-resource-list{
+                h4{
+                    @media only screen and (max-width:500px){
+                        font-size: 20px;
+                    }
+                }
+            }
+            .guide-and-resource-button{
+                button{
+                    padding: 12px 30px;
+                    @include button($secondary-green, $white);
+                    a{
+                        font-size: 18px;
+                        text-decoration: none;
+                    }
+                    @media only screen and (max-width:500px){
+                        padding: 6px 12px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        /*-----guide-and-resource section end-----*/
+
+        /*-----we-work-with-companies section Start-----*/
+        &.we-work-with-companies{
+            padding: 60px 0;
+            .section-heading{
+                @include heading($primary-orange);
+            }
+            .owl-stage{
+                display: flex;
+                .owl-item{
+                    align-self: center;
+                }
+            }
+            .owl-nav{
+                position: absolute;
+                width: 100%;
+                transform: translateY(-50%);
+                top: 50%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        /*-----we-work-with-companies section end-----*/
+        /*-----get advice and apply section start---*/
+        
+        &.get-advice-and-apply-now{
+            background: #f4f4f4;
+            padding: 60px 0;
+            .section-heading{
+                @include heading($primary-orange);
+            }
+            .advice-button-container{
+                button:first-child{
+                    @include button($primary-orange, $white);
+                    padding: 12px 20px;
+                    a{
+                        font-size: 20px;
+                    }
+                    @media only screen and (max-width:500px){
+                        padding: 6px 12px;
+                        font-size: 20px;
+                    }
+                }
+                button:nth-child(2){
+                    @include button($secondary-green, $white);
+                    padding: 12px 20px;
+                    a{
+                        font-size: 20px;
+                    }
+                    @media only screen and (max-width:500px){
+                        padding: 6px 12px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        /*-----get advice and apply section start---*/
+    }
+}
+footer{
+    padding: 60px 0;
+    background: #000;
+    .footer-heading{
+        color: $primary-orange;
+        
+    }
+    .social{
+        li{
+            width: 40px;
+            height: 40px;
+            background: $primary-orange;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50%;
+            flex-direction: column;
+            transition: 0.30s all ease;
+            &:hover{
+                background: $white;
+                transition: 0.30s all ease;
+                a{
+                    color: $primary-orange;
+                }
+            }
+            a{
+                color: $white;
+            }
+        }
+    }
+    a{
+        color: $white;
+        &:hover{
+            text-decoration: none;
+            color:$secondary-green;
+        }
+    }
+}
+
+/* ------main end-------*/
